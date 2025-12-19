@@ -11,8 +11,7 @@ body {
     margin: 0;
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
     background: #fff;
-    /* Default Desktop: Tidak ada scroll (Aplikasi Peta Fullscreen) */
-    overflow: hidden; 
+    overflow: hidden; /* Default Desktop: Tidak scroll */
     height: 100vh;
 }
 
@@ -53,7 +52,7 @@ body {
     position: fixed;
     top: 70px; 
     left: 0; right: 0; 
-    bottom: 40px; /* Disisakan buat footer desktop */
+    bottom: 40px; 
     z-index: 1;
 }
 
@@ -107,7 +106,7 @@ body {
     z-index: 9999;
     display: flex; justify-content: center; align-items: center;
     padding: 6px 14px;
-    height: 40px; /* Tinggi fix di desktop */
+    height: 40px; 
 }
 .footer-content {
     display: flex; align-items: center; gap: 18px;
@@ -118,84 +117,72 @@ body {
 
 
 /* ============================================================
-   TAMPILAN KHUSUS HP (MOBILE) - MODE SCROLL
+   TAMPILAN KHUSUS HP (MOBILE)
    ============================================================ */
 @media (max-width: 768px) {
-    /* 1. Izinkan Scroll di HP */
     body {
-        overflow-y: auto !important; /* PENTING: Biar bisa scroll ke bawah lihat footer */
+        overflow-y: auto !important; /* Bisa scroll jika konten panjang */
         height: auto !important;
-        display: flex;
-        flex-direction: column;
+        display: flex; flex-direction: column;
     }
 
-    /* 2. Header jadi biasa (tidak melayang/fixed yang kaku) */
+    /* 1. HEADER COMPACT */
     .container {
-        position: relative; /* Ikut alur halaman */
+        position: relative;
         height: auto;
-        padding: 15px;
+        padding: 10px;
         flex-direction: column;
-        gap: 10px;
+        gap: 5px;
     }
-
     .header-title {
-        position: static; /* Judul turun ke bawah logo */
-        transform: none;
-        font-size: 18px;
-        margin-top: 5px;
+        position: static; transform: none;
+        font-size: 16px; margin-top: 2px;
     }
-    
-    .logo-group img { height: 35px; width: auto; }
+    .logo-group img { height: 30px; width: auto; }
 
-    /* 3. Peta kita beri tinggi tetap, bukan fullscreen */
+    /* 2. PETA 75% LAYAR */
     #map {
-        position: relative; /* Ikut alur halaman setelah header */
-        top: 0; 
-        bottom: auto;
-        height: 60vh; /* Tinggi peta 60% dari layar HP */
+        position: relative;
+        top: 0; bottom: auto;
+        height: 75vh; /* <--- Peta jadi 75% tinggi layar HP */
         width: 100%;
-        margin-bottom: 0;
         z-index: 1;
     }
 
-    /* 4. Filter Bar menyesuaikan posisi peta */
+    /* 3. FILTER BAR */
     .filter-inline {
         position: absolute;
-        /* Kita kira-kira tinggi header sekitar 110px */
-        top: 120px; 
+        top: 90px; /* Disesuaikan agar di atas peta */
         left: 10px; right: 10px;
         width: auto;
         flex-wrap: wrap;
     }
     .category-search { width: 100%; flex: 1; }
+    .leaflet-top.leaflet-left { top: 50px; } /* Tombol zoom turun dikit */
 
-    /* 5. Footer jadi tumpuk ke bawah & RAPI */
+    /* 4. FOOTER 1-2 BARIS (COMPACT) */
     .footer {
-        position: relative; /* Nempel di paling bawah halaman (bukan layar) */
+        position: relative;
         height: auto;
-        padding: 20px 15px;
-        background: #f8f9fa; /* Warna background solid biar jelas */
-        bottom: auto;
+        padding: 8px 10px;
+        background: #f8f9fa;
     }
 
     .footer-content {
-        flex-direction: column !important; /* Paksa tumpuk ke bawah */
-        gap: 12px;
+        flex-direction: row !important; /* Tetap ke samping */
+        flex-wrap: wrap; /* Kalau mentok, baru turun baris */
+        justify-content: center; /* Rata tengah */
+        gap: 8px 15px; /* Jarak antar item (atas-bawah 8px, kiri-kanan 15px) */
+        font-size: 10px; /* Huruf diperkecil dikit biar muat */
         text-align: center;
-        align-items: center;
-        white-space: normal; /* Izinkan teks panjang turun baris */
     }
 
     .footer-item {
-        display: flex;
-        flex-direction: column; /* Ikon di atas teks (opsional) atau row */
-        justify-content: center;
-        width: 100%;
+        display: inline-flex;
+        width: auto; /* Lebar otomatis, jangan menuhin layar */
+        white-space: nowrap; /* Teks item jangan kepotong */
     }
-    
-    /* Tombol Zoom Peta Geser Dikit */
-    .leaflet-top.leaflet-left { top: 60px; }
-    
-    /* Perkecil Sidebar di HP */
+
+    /* Kecilkan sidebar di HP */
     .sidebar { width: 85%; top: 0; z-index: 10002; }
 }
