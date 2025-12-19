@@ -5,20 +5,23 @@
     --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
     background: #fff;
-    overflow: hidden; /* Default Desktop: Tidak scroll */
+    overflow: hidden;
     height: 100vh;
 }
 
-/* ================= HEADER ================= */
 .container {
     position: fixed;
-    top: 0; left: 0; right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 70px;
     background: white;
     z-index: 9999;
@@ -34,7 +37,10 @@ body {
     align-items: center;
     gap: 12px;
 }
-.logo-group img { object-fit: contain; }
+
+.logo-group img {
+    object-fit: contain;
+}
 
 .header-title {
     position: absolute;
@@ -47,86 +53,131 @@ body {
     pointer-events: none;
 }
 
-/* ================= MAP & SIDEBAR ================= */
 #map {
     position: fixed;
-    top: 70px; 
-    left: 0; right: 0; 
-    bottom: 40px; 
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 40px;
     z-index: 1;
 }
 
 .sidebar {
     position: fixed;
-    top: 70px; left: 0; bottom: 0;
+    top: 70px;
+    left: 0;
+    bottom: 0;
     width: var(--sidebar-w);
     background: var(--bg);
     border-right: 1px solid #e9e9ef;
     transform: translateX(-100%);
     transition: transform .28s ease;
     box-shadow: var(--shadow);
-    display: flex; flex-direction: column;
+    display: flex;
+    flex-direction: column;
     z-index: 10000;
 }
-.sidebar.open { transform: translateX(0); }
-.sidebar-header {
-    display: flex; align-items: center; justify-content: space-between;
-    padding: 14px; border-bottom: 1px solid #e9e9ef;
-}
-.sidebar-title { font-weight: 600; }
-.sidebar-body { padding: 12px 14px; overflow: auto; flex: 1; }
 
-/* ================= TOMBOL & FILTER ================= */
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px;
+    border-bottom: 1px solid #e9e9ef;
+}
+
+.sidebar-title {
+    font-weight: 600;
+}
+
+.sidebar-body {
+    padding: 12px 14px;
+    overflow: auto;
+    flex: 1;
+}
+
 .toggle-btn {
-    background: #fff; border: 1px solid #e9e9ef; border-radius: 10px;
-    padding: 6px 12px; cursor: pointer; font-size: 14px;
+    background: #fff;
+    border: 1px solid #e9e9ef;
+    border-radius: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 14px;
     box-shadow: var(--shadow);
 }
-.hidden { display: none !important; }
+
+.hidden {
+    display: none !important;
+}
 
 .filter-inline {
     position: fixed;
-    top: 85px; left: 60px;
-    display: flex; align-items: center; gap: 10px;
+    top: 85px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     z-index: 10001;
 }
+
 .category-search {
-    background: #fff; border: 1px solid #e9e9ef; border-radius: 10px;
-    padding: 6px 12px; font-size: 14px; box-shadow: var(--shadow);
-    outline: none; width: 180px;
+    background: #fff;
+    border: 1px solid #e9e9ef;
+    border-radius: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    box-shadow: var(--shadow);
+    outline: none;
+    width: 180px;
 }
 
-/* ================= FOOTER (DESKTOP) ================= */
 .footer {
     position: fixed;
-    bottom: 0; left: 0; right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(4px);
     border-top: 1px solid #e5e5e5;
     z-index: 9999;
-    display: flex; justify-content: center; align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 6px 14px;
-    height: 40px; 
+    height: 40px;
 }
+
 .footer-content {
-    display: flex; align-items: center; gap: 18px;
-    font-size: 13px; color: #444;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 13px;
+    color: #444;
 }
-.footer-item { display: inline-flex; align-items: center; gap: 6px; }
-.footer a { color: #0066cc; text-decoration: none; }
 
+.footer-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
 
-/* ============================================================
-   TAMPILAN KHUSUS HP (MOBILE)
-   ============================================================ */
+.footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
     body {
-        overflow-y: auto !important; /* Bisa scroll jika konten panjang */
+        overflow-y: auto !important;
         height: auto !important;
-        display: flex; flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
 
-    /* 1. HEADER COMPACT */
     .container {
         position: relative;
         height: auto;
@@ -134,33 +185,46 @@ body {
         flex-direction: column;
         gap: 5px;
     }
-    .header-title {
-        position: static; transform: none;
-        font-size: 16px; margin-top: 2px;
-    }
-    .logo-group img { height: 30px; width: auto; }
 
-    /* 2. PETA 75% LAYAR */
+    .header-title {
+        position: static;
+        transform: none;
+        font-size: 16px;
+        margin-top: 2px;
+    }
+
+    .logo-group img {
+        height: 30px;
+        width: auto;
+    }
+
     #map {
         position: relative;
-        top: 0; bottom: auto;
-        height: 75vh; /* <--- Peta jadi 75% tinggi layar HP */
+        top: 0;
+        bottom: auto;
+        height: 75vh;
         width: 100%;
         z-index: 1;
     }
 
-    /* 3. FILTER BAR */
     .filter-inline {
         position: absolute;
-        top: 90px; /* Disesuaikan agar di atas peta */
-        left: 10px; right: 10px;
+        top: 90px;
+        left: 10px;
+        right: 10px;
         width: auto;
         flex-wrap: wrap;
     }
-    .category-search { width: 100%; flex: 1; }
-    .leaflet-top.leaflet-left { top: 50px; } /* Tombol zoom turun dikit */
 
-    /* 4. FOOTER 1-2 BARIS (COMPACT) */
+    .category-search {
+        width: 100%;
+        flex: 1;
+    }
+
+    .leaflet-top.leaflet-left {
+        top: 50px;
+    }
+
     .footer {
         position: relative;
         height: auto;
@@ -169,20 +233,23 @@ body {
     }
 
     .footer-content {
-        flex-direction: row !important; /* Tetap ke samping */
-        flex-wrap: wrap; /* Kalau mentok, baru turun baris */
-        justify-content: center; /* Rata tengah */
-        gap: 8px 15px; /* Jarak antar item (atas-bawah 8px, kiri-kanan 15px) */
-        font-size: 10px; /* Huruf diperkecil dikit biar muat */
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 15px;
+        font-size: 10px;
         text-align: center;
     }
 
     .footer-item {
         display: inline-flex;
-        width: auto; /* Lebar otomatis, jangan menuhin layar */
-        white-space: nowrap; /* Teks item jangan kepotong */
+        width: auto;
+        white-space: nowrap;
     }
 
-    /* Kecilkan sidebar di HP */
-    .sidebar { width: 85%; top: 0; z-index: 10002; }
+    .sidebar {
+        width: 85%;
+        top: 0;
+        z-index: 10002;
+    }
 }
