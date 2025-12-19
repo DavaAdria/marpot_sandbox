@@ -1,0 +1,848 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+  
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100, 5]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 571",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100, 6]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 572",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110, -10]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 573",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107, 2]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 711",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110, -5]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 712",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [118, -5]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 713",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126, -6]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 714",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [126, 0]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 715",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125, 3]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 716",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135, 0]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 717",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135, 5]
+      },
+      "properties": {
+        "description": "Peta Batimetri MSL WPP-RI 718",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Tide"]
+      }
+    },
+
+
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.63382295851694, -6.677245814012299]
+      },
+      "properties": {
+        "description": "Peta Kelas Lereng Area Pantai Seribu Ranting, Jepara, Jawa Tengah",
+        "research date": "2022",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Sediment"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.22918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Runoff Indonesia Klimatologi",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Sediment"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.22918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Total Ketebalan Sedimen Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Sediment"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.63382295851694, -6.677245814012299]
+      },
+      "properties": {
+        "description": "Peta Kelas Lereng Area Pantai Seribu Ranting, Jepara, Jawa Tengah",
+        "research date": "2022",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Sediment"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.22918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Runoff Indonesia Klimatologi",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Sediment"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.22918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Total Ketebalan Sedimen Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Sediment"]
+      }
+    },
+
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.52918806173706, -4.843314097819922]
+      },
+    "properties": {
+     "description": "Climatology Mean Wave Period",
+     "research date": "-",
+     "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+     "email": "database.register1@gmail.com",
+     "categories": ["Ocean Waves"]
+    }
+   },
+   {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.72918806173706, -4.843314097819922]
+      },
+    "properties": {
+     "description": "Climatology Mean Wave Direction",
+     "research date": "-",
+     "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+     "email": "database.register1@gmail.com",
+     "categories": ["Ocean Waves"]
+    }
+   },
+
+
+   {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100, 5]
+      },
+      "properties": {
+        "description": "-",
+        "research date": "-",
+        "owner": "-",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Ocean Current"]
+      }
+    },
+
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100, 5]
+      },
+      "properties": {
+        "description": "-",
+        "research date": "-",
+        "owner": "-",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Marine Pollution"]
+      }
+    },
+
+   
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.60564060461842, 1.8223191333607958]
+      },
+      "properties": {
+        "description": "Daerah Potensi Tangkapan Ikan Bulan Januari 2002-2022 di Tapanuli Tengah.",
+        "research date": "2002-2022",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Fishery"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [98.7575131519076, 1.6375151568780564]
+      },
+      "properties": {
+        "description": "Daerah Potensi Tangkapan Ikan Bulan Juli 2002-2022 di Tapanuli Tengah.",
+        "research date": "2002-2022",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Fishery"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [120.60938546260539, -2.893558440672552]
+      },
+      "properties": {
+        "description": "Distribusi Klorofil-A & SPL di Teluk Bone Bulan Januari",
+        "research date": "2002-2023",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Fishery"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.90652349803219, -5.0186591861182706]
+      },
+      "properties": {
+        "description": "Distribusi Klorofil-A & SPL di Teluk Bone Bulan Juli",
+        "research date": "2002-2023",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Fishery"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.57804127245969, -5.940573583913645]
+      },
+      "properties": {
+        "description": "Potensi Tangkapan Ikan di Perairan Karimun Jawa Bulan Februari",
+        "research date": "2003-2023",
+        "owner": "Refaldi Rizky Maulana",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Fishery"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.16868959107951, -5.896247507936577]
+      },
+      "properties": {
+        "description": "Potensi Tangkapan Ikan di Perairan Karimun Jawa Bulan Agustus",
+        "research date": "2003-2023",
+        "owner": "Refaldi Rizky Maulana",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Fishery"]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [100, 5]
+      },
+      "properties": {
+        "description": "-",
+        "research date": "-",
+        "owner": "-",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Ecology And Biota"]
+      }
+    },
+
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.67913624859732, -6.579353669895459]
+      },
+      "properties": {
+        "description": "Peta Kelerengan Kabupaten Jepara",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Disaster Mitigation"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.6449210452311, -6.583960708793667]
+      },
+      "properties": {
+        "description": "Peta Kerentanan Tsunami Kabupaten Jepara",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Disaster Mitigation"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.13382117809162, -7.885924910923946]
+      },
+      "properties": {
+        "description": "Peta Kelerengan Kabupaten Kulonprogo",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Disaster Mitigation"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.10360877702036, -7.925371844190808]
+      },
+      "properties": {
+        "description": "Peta Kerentanan Tsunami Kabupaten Kulonprogo",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Disaster Mitigation"]
+      }
+    },
+
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.12918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Total Cloud Cover Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.22918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Total Precipitation Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.32918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Mean Sea Level Pressure Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.42918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Surface Pressure Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.52918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Surface Net Long-wave (Thermal) Radiation Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.62918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Surface Net Short-wave (Solar) Radiation Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.72918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Surface Sensible Heat Flux Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.82918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Surface Latent Heat Flux Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.92918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Sea Surface Height Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.02918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Sea Surface Temperature Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.12918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Net Heat Flux Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.22918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Evaporation Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [110.32918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Chlorophyll-a Concentration Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Climatology And Meteorology Atmosphere"]
+      }
+    },
+
+    
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.02918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Density Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.12918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Dissolved Iron Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.22918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Dissolved Molecular Oxygen Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.32918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Dissolved Silicate Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.42918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Net Primary Production Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.52918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Nitrate Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.62918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology pH Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.72918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Phosphate Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.82918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Salinity Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.92918806173706, -4.843314097819922]
+      },
+      "properties": {
+        "description": "Climatology Surface Partial Pressure of CO2 Indonesia",
+        "research date": "-",
+        "owner": "Zanugera Alamsyah",
+        "data availability": "Upon reasonable request to the author.",
+        "email": "database.register1@gmail.com",
+        "categories": ["Chemistry"]
+      }
+    }
+  ]
+}
